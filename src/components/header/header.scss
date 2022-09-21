@@ -1,0 +1,112 @@
+.header{
+  position: fixed;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 15px;
+  .contain{
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contain div{
+    padding: 0 !important;
+  }
+  .p-inputtext{
+    padding: 0.5rem 0.5rem;
+    border-radius: 30px;
+  }
+  .input-size{
+    width: 0;
+  }
+  .logo-header{
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  .icon-efect{
+    color: #000;
+    opacity: .8;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  .icon-efect:hover{
+    color: #ec6571;
+    opacity: .6;
+  }
+  .ic{
+    text-align: right;
+  }
+  .ic button{
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 5px
+  }
+  .ic button:hover{
+    background: #FBFCFC;
+  }
+  .ic button i{
+    padding: 5px;
+  }
+  .select-panel{
+    border: 2px solid #ec6571;
+  }
+  .jb{
+    justify-content:space-between;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .jb div{
+    height: 52px;
+    width: 50%;
+    cursor: pointer;
+  }
+  .jb div:hover{
+    border-bottom: 4px solid #ec6571;
+  }
+  .jb div i{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .p-inputtext:enabled:hover{
+    border-color: #ec6571;
+  }
+  .p-inputtext:enabled:focus{
+    box-shadow: none;
+    border-color: #ec6571;
+  }
+  .icon-option-place{
+    display: none;
+  }
+  @media (max-width: 992px){
+    .logo-header{
+      font-size: 30px;
+      margin-top: 5px;
+    }
+    .icon-efect{
+      font-size: 25px;
+    }
+    .jb div{
+      height: 52px;
+    }
+    .jb div i{
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .navi-option{
+      display: none;
+    }
+    .icon-option-place{
+      display:inline;
+    }
+    .ic button{
+      margin-left: 2px
+    }
+  }
+}
